@@ -243,10 +243,10 @@ img {
   border-radius: 4px;
   height: 112px;
   margin-bottom: 8px;
+  background-color: #f4f4fd;
 }
 
 .benefits-icon {
-  /* padding: 24px; */
   margin-bottom: 8px;
 }
 
@@ -361,6 +361,9 @@ img {
 }
 
 .footer-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
 }
 
 .footer-logo {
@@ -388,12 +391,20 @@ img {
 }
 
 .footer-social-wrapper {
+  
 }
 
 .footer-social-title {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 16px;
 }
 
 .footer-social-list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
 }
 
 .footer-social-item {
