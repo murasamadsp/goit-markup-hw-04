@@ -465,7 +465,7 @@ footer .container {
   color: #f4f4fd;
   font-size: 16px;
   max-width: 264px;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 
 .footer-social-wrapper {
@@ -475,6 +475,7 @@ footer .container {
   color: #fff;
   font-weight: 500;
   margin-bottom: 16px;
+  letter-spacing: 0.02em;
 }
 
 .footer-social-list {
@@ -484,6 +485,10 @@ footer .container {
 }
 
 .footer-social-item {
+}
+
+.footer-info {
+  margin-right: 120px;
 }
 
 .footer-social-link {
