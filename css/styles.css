@@ -329,6 +329,12 @@ img {
   column-gap: 24px;
 }
 
+.portfolio-overlay-container {
+}
+
+.portfolio-overlay-text {
+}
+
 .portfolio-info {
   padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
@@ -354,6 +360,9 @@ img {
   background-color: #2e2f42;
 }
 
+.footer-content-wrapper {
+}
+
 .footer-logo {
   color: #4d5ae5;
   font-weight: 700;
@@ -376,6 +385,24 @@ img {
   font-size: 16px;
   line-height: 1.5;
   max-width: 264px;
+}
+
+.footer-social-wrapper {
+}
+
+.footer-social-title {
+}
+
+.footer-social-list {
+}
+
+.footer-social-item {
+}
+
+.footer-social-link {
+}
+
+.footer-social-icon {
 }
 
 .footer-icon-list {
