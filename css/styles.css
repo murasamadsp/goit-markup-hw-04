@@ -203,6 +203,7 @@ img {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.03em;
   max-width: 496px;
   margin: 0 auto 48px auto;
 }
@@ -275,6 +276,7 @@ img {
 }
 
 .benefits-icon {
+  fill: #2e2f42;
   margin-bottom: 8px;
 }
 
@@ -292,6 +294,7 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 72px;
 }
@@ -307,6 +310,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-info {
@@ -333,6 +337,20 @@ img {
 }
 
 .team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #404bbf;
+  fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #404bbf;
 }
 
 /* #endregion Team */
@@ -344,6 +362,7 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.03em;
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
@@ -437,9 +456,23 @@ img {
 }
 
 .footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
 }
 
 .footer-social-icon {
+  fill: #f4f4fd;
 }
 
 .footer-icon-list {
