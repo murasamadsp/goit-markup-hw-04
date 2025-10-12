@@ -109,11 +109,12 @@ img {
   font-weight: 500;
 }
 
-.nav-item .nav-link {
+.nav-item:first-child .nav-link {
   position: relative;
+  color: #404bbf;
 }
 
-.nav-item .nav-link::after {
+.nav-item:first-child .nav-link::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -143,8 +144,8 @@ img {
   color: #404bbf;
 }
 
-.nav-item .nav-link:hover::after,
-.nav-item .nav-link:focus-visible::after {
+.nav-item:first-child .nav-link:hover::after,
+.nav-item:first-child .nav-link:focus-visible::after {
   transform: scaleX(1);
 }
 
