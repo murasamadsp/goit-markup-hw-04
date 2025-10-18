@@ -129,6 +129,7 @@ img {
 .nav-link {
   color: #2e2f42;
   font-size: 16px;
+  letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   padding: 24px 0;
@@ -162,6 +163,7 @@ img {
 
 .contacts-link {
   color: #434455;
+  letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -250,10 +252,12 @@ img {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 
 .benefits-desc {
+  letter-spacing: 0.02em;
 }
 
 .benefits-icon-container {
@@ -285,13 +289,14 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 72px;
 }
 
 .team-desc {
   margin-bottom: 8px;
+  letter-spacing: 0.02em;
 }
 
 .team-list {
@@ -318,6 +323,7 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 
@@ -362,7 +368,7 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
@@ -406,6 +412,7 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 
@@ -462,7 +469,7 @@ footer .container {
   color: #f4f4fd;
   font-size: 16px;
   max-width: 264px;
-  /* letter-spacing: 0.02em; */
+  letter-spacing: 0.02em;
 }
 
 .footer-social-wrapper {
